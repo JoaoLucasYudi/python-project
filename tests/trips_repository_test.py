@@ -1,6 +1,7 @@
 import pytest
 import uuid
 from datetime import datetime, timedelta
+
 from src.models.repositories.trips_repository import TripsRepository
 from src.models.settings.db_connection_handler import db_connection_handler
 
