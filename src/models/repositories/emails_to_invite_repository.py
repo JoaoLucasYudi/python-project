@@ -28,5 +28,5 @@ class EmailsToInviteRepository:
                 trip_id = ?;
             ''', (trip_id,)
         )
-        trip = cursor.fetchall()
-        return trip
+        emails = cursor.fetchall()
+        return emails
